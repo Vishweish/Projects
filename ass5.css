@@ -1,0 +1,34 @@
+.bg{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.h3{
+    
+    text-align: start;
+}
+
+
+.underline{
+    text-decoration: underline;
+    
+    
+
+}
+
+.btn{
+    background-color: orange;
+    
+}
+
+.bg{
+    background-image: url(../Assets/todolistbg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 500px;
+    
+}
