@@ -1,0 +1,89 @@
+What is JavaScript?
+JavaScript is a programming language used primarily by Web browsers to create a dynamic and interactive wepages
+---------------------------------------------------------------------------------------------------------------------------
+Variables and Types:
+-->Global variable-var
+-->Local variable-let
+---------------------------------------------------------------------------------------------------------------------------
+Declare a variable named userAge and assign it a numerical value representing someone's age.
+let userage=25;
+---------------------------------------------------------------------------------------------------------------------------
+Declare another variable named userName and assign it a string value representing a person's name.
+let username=" Raj "
+---------------------------------------------------------------------------------------------------------------------------
+Output both variables using console.log().
+console.log(userage);
+console.log(username);
+---------------------------------------------------------------------------------------------------------------------------
+Comments in JavaScript:
+Write a multi-line comment explaining the purpose of a function you create in the next step.
+
+// or /*… */ --> used to understand the code
+/* purpose of a function is to reuse the code as many times the programmer needs the code*/ 
+
+---------------------------------------------------------------------------------------------------------------------------
+Operations:
+Create two variables, num1 and num2, and assign them numerical values.
+Perform addition, subtraction, multiplication, and division operations on these variables.
+Display the results using console.log().
+
+var num1=20;
+var num2=10;
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+
+---------------------------------------------------------------------------------------------------------------------------
+Data Types:
+Create variables to represent different data types: string, number, boolean, and an array.
+Provide examples and explain each data type.
+
+let length = 10;
+let color = "Red";
+let x = true;
+const cars = ["Ferrari", "Volvo", "Audi"];
+
+---------------------------------------------------------------------------------------------------------------------------
+Functions in JavaScript:
+Write a function named greetUser that takes a name parameter and returns a greeting message.
+Call the function with a sample name and display the result using console.log().
+
+function greetUser(name) {
+    return "Hello" + name ;
+}
+
+var sampleName = "Ramkumar";
+var greetingMessage = greetUser(sampleName);
+console.log(greetingMessage);
+
+Output:
+Hello Ramkumar
+
+---------------------------------------------------------------------------------------------------------------------------
+if Else in JavaScript:
+Create a variable named temperature and assign it a numerical value.
+Write an if-else statement to check if the temperature is greater than 30. Output a message accordingly.
+
+let temperature=40;
+if temperature<30:
+console.log("True");
+else:
+console.log("False");
+
+---------------------------------------------------------------------------------------------------------------------------
+FOR LOOP:
+Use a for loop to print the numbers from 1 to 5 in the console.
+
+for (var i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+Loose vs Strict Equality:
+Explain the difference between loose equality (==) and strict equality (===) with examples.
+
+loose equality (==) : Do not check the datatype
+Example:5 == "5" // true
+strict equality (===) : Will check the datatype
+Example: 5 === "5" // false
